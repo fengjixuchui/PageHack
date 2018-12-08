@@ -1,0 +1,59 @@
+BUILD: Examining d:\antiga~1\pagehack\pagehack directory for files to compile.
+Compiling (NoSync) d:\antiga~1\pagehack\pagehack directory ********************
+'nmake.exe /nologo BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 PASS1_NOLIB=1 386=1'
+    rc -l 409 -DSXS_ASSEMBLY_NAME=""""""  -DSXS_ASSEMBLY_LANGUAGE=""""""  -DSXS_PROCESSOR_ARCHITECTURE="""x86"""  -DSXS_TARGET="""pagehack.sys"""   -DSYSTEM_COMPATIBLE_ASSEMBLY_NAME="""Microsoft.Windows.SystemCompatible"""  -DLSYSTEM_COMPATIBLE_ASSEMBLY_NAME=L"""Microsoft.Windows.SystemCompatible"""   -DSXS_ASSEMBLY_VERSION="""""" -z "MS Sans Serif,Helv/MS Shell Dlg"  -r -fo objfre_wnet_x86\i386\drvversion.res -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0603    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -D__BUILDMACHINE__=WinDDK -DFPO=0  -DNDEBUG -D_DLL=1    -IF:\WinDDK\3790~1.183\inc\mfc42 -Iobjfre_wnet_x86\i386 -IF:\WinDDK\3790~1.183\inc\wnet -IF:\WinDDK\3790~1.183\inc\wnet -IF:\WinDDK\3790~1.183\inc\ddk\wnet -IF:\WinDDK\3790~1.183\inc\ddk\wdm\wnet -IF:\WinDDK\3790~1.183\inc\crt .\drvversion.rc
+cl -nologo -Ii386\ -I. -IF:\WinDDK\3790~1.183\inc\mfc42 -Iobjfre_wnet_x86\i386 -IF:\WinDDK\3790~1.183\inc\wnet -IF:\WinDDK\3790~1.183\inc\wnet -IF:\WinDDK\3790~1.183\inc\ddk\wnet -IF:\WinDDK\3790~1.183\inc\ddk\wdm\wnet -IF:\WinDDK\3790~1.183\inc\crt -D_X86_=1 -Di386=1  -DSTD_CALL -DCONDITION_HANDLING=1   -DNT_INST=0 -DWIN32=100 -D_NT1X_=100 -DWINNT=1 -D_WIN32_WINNT=0x0502 /DWINVER=0x0502 -D_WIN32_IE=0x0603    -DWIN32_LEAN_AND_MEAN=1 -DDEVL=1 -D__BUILDMACHINE__=WinDDK -DFPO=0  -DNDEBUG -D_DLL=1      /c /Zl /Zp8 /Gy /Gm- -cbstring /W1 /Gz  /GX-  /GR- /GF  /G6 /Ze /Gi- /QIfdiv- /hotpatch -Z7 /Oxs  /Oy-   -FIF:\WinDDK\3790~1.183\inc\wnet\warning.h   .\pagehack.c 
+pagehack.c
+
+Stop.
+Compiling  d:\antiga~1\pagehack\pagehack directory ********************
+'nmake.exe /nologo BUILDMSG=Stop. -i NTTEST= UMTEST= NOLINK=1 386=1'
+
+Stop.
+Linking d:\antiga~1\pagehack\pagehack directory ********************
+'nmake.exe /nologo BUILDMSG=Stop. -i LINKONLY=1 NOPASS0=1 NTTEST= UMTEST= 386=1'
+	link -out:..\bin\i386\pagehack.sys -machine:ix86 @C:\Users\ADMINI~1\AppData\Local\Temp\nmE877.tmp
+Microsoft (R) Incremental Linker Version 7.10.4035
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+-MERGE:_PAGE=PAGE 
+-MERGE:_TEXT=.text 
+-SECTION:INIT,d 
+-OPT:REF 
+-OPT:ICF 
+-IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 
+-INCREMENTAL:NO 
+-FULLBUILD 
+/release 
+-NODEFAULTLIB 
+/WX 
+-debug 
+-debugtype:cv 
+-version:5.2 
+-osversion:5.2 
+/functionpadmin:5 
+/safeseh 
+/pdbcompress 
+-STACK:0x40000,0x1000 
+-driver 
+-base:0x10000 
+-subsystem:native,5.02 
+-entry:DriverEntry@8 
+-out:..\bin\i386\pagehack.sys 
+objfre_wnet_x86\i386\drvversion.res 
+objfre_wnet_x86\i386\pagehack_main.obj 
+objfre_wnet_x86\i386\debug.obj 
+objfre_wnet_x86\i386\tools.obj 
+objfre_wnet_x86\i386\list.obj 
+objfre_wnet_x86\i386\xde.obj 
+objfre_wnet_x86\i386\hook.obj 
+objfre_wnet_x86\i386\pagehack.obj 
+F:\WinDDK\3790~1.183\lib\wnet\i386\ntoskrnl.lib 
+F:\WinDDK\3790~1.183\lib\wnet\i386\hal.lib 
+F:\WinDDK\3790~1.183\lib\wnet\i386\wmilib.lib 
+F:\WinDDK\3790~1.183\lib\wnet\i386\wdmsec.lib 
+F:\WinDDK\3790~1.183\lib\wnet\i386\libcntpr.lib 
+	echo Skip Binplace:
+Skip Binplace:
+
+Stop.

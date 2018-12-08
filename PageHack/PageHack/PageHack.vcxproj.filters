@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\common">
+      <UniqueIdentifier>{052b7539-d5b6-4b92-921d-68491a9d1314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\dbglog">
+      <UniqueIdentifier>{6d44229d-353c-4d18-ad7c-f55598b3abb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hook">
+      <UniqueIdentifier>{29bc5fd2-4c35-4d9f-8241-1683c7181e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\hook">
+      <UniqueIdentifier>{f1ccecb4-ae3a-489e-bd36-0b7a7e04f567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tools">
+      <UniqueIdentifier>{49c8fb58-cd11-43a5-85b3-6663d3fd8433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tools">
+      <UniqueIdentifier>{499c625a-bdd6-4f56-a888-6d8b5313a1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\list">
+      <UniqueIdentifier>{92453958-2659-4d0c-ba7e-d7efcec9f15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\list">
+      <UniqueIdentifier>{c741bffc-45fe-4885-a311-46e8d7e7f07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\xde">
+      <UniqueIdentifier>{521de305-320f-48d3-9975-ccd211e603c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\dbglog">
+      <UniqueIdentifier>{539972a9-9e6f-4eb4-9789-9afa90899a2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.txt" />
+    <None Include="Clear.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="mybuild.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="mybuild_win7.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReBuild.bat">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="SOURCES">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ntifs.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ntifs_48.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="zwfunc.h">
+      <Filter>头文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件\list</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>头文件\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>头文件\dbglog</Filter>
+    </ClInclude>
+    <ClInclude Include="pagehack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pagehack_main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.c">
+      <Filter>源文件\dbglog</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.c">
+      <Filter>源文件\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="List.c">
+      <Filter>源文件\list</Filter>
+    </ClCompile>
+    <ClCompile Include="xde.c">
+      <Filter>源文件\xde</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.c">
+      <Filter>源文件\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="pagehack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

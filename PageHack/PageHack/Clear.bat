@@ -1,0 +1,1 @@
+del objfre_wnet_x86\i386\*.obj
